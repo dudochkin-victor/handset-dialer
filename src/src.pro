@@ -1,8 +1,8 @@
 include (../common.pri)
 TEMPLATE = app
-QT += dbus opengl
+QT += dbus opengl mobility
 CONFIG += qdbus mobility link_pkgconfig
-PKGCONFIG += QtNetwork mobility meegobluetooth libresourceqt1
+PKGCONFIG += QtNetwork meegobluetooth libresourceqt1
 MOBILITY += contacts multimedia
 MOC_DIR = .moc
 OBJECTS_DIR = .obj
